@@ -1,0 +1,38 @@
+body{
+    background: rgb(82, 68, 68);
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+form{
+    width: 300px;
+    border:1px solid black;
+    background-color: whitesmoke;
+    margin: 10% auto;
+    /* transform: translate(-50%,-50%); */
+}
+form h1{
+    width:fit-content;
+    margin:30px auto;
+}
+form .input-control{
+    display: flex;
+    flex-direction: column;
+    margin:10px 20px;
+}
+form .input-control input{
+    padding:6px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+form button{
+    width: 80%;
+    margin:10px 10%; 
+    padding: 10px 0;
+    cursor: pointer;
+    color:white;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
